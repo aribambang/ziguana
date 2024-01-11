@@ -3,7 +3,7 @@ const std = @import("std");
 pub fn main() void {
     const constant: i32 = 5;
     _ = constant;
-    var variable: u2 = 5555;
+    var variable: u32 = 5555;
     _ = variable;
 
     const inferred_constant = @as(i64, 44444);
